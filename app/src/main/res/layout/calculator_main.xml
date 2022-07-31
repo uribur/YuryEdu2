@@ -12,11 +12,13 @@
         android:layout_margin="5dp">
 
         <TextView
+            android:id="@+id/resultcalc"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:textSize="15pt"
+            android:textColor="@color/black"
             android:text=""
-            android:gravity="bottom"
+            android:gravity="end"
             />
 
         <include
